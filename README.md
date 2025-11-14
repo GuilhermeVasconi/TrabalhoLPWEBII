@@ -70,14 +70,14 @@ Abra o navegador e acesse:
 - **Área Pública:** `http://localhost/sistema-veiculos/public`
 - **Login Administrativo:** `http://localhost/sistema-veiculos/public/login`
 
-## 🔐 Credenciais de Acesso
+## Credenciais de Acesso
 
 ### Administrador
 
 - **E-mail:** admin@admin.com
 - **Senha:** admin123
 
-## 📂 Estrutura do Sistema
+## Estrutura do Sistema
 
 ### Área Pública
 
@@ -107,7 +107,7 @@ Cada veículo deve ter:
 - Campos obrigatórios: ano, quilometragem e valor
 - Campos opcionais: detalhes (descrição)
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Framework:** Laravel 10
 - **Frontend:** Bootstrap 5 (via CDN)
@@ -115,13 +115,13 @@ Cada veículo deve ter:
 - **Autenticação:** Laravel UI (Bootstrap)
 - **Template Engine:** Blade
 
-## 📸 Screenshots
+## Screenshots
 
 ### Tela Inicial (Área Pública)
-![Tela Inicial](screenshots/tela-inicial.png)
+![Tela Inicial](screenshots/tela-publica.png)
 
 ### Detalhes do Veículo
-![Detalhes](screenshots/detalhes-veiculo.png)
+![Detalhes](screenshots/detalhes-do-veiculo.png)
 
 ### Login
 ![Login](screenshots/login.png)
@@ -130,19 +130,19 @@ Cada veículo deve ter:
 ![Painel Admin](screenshots/painel-admin.png)
 
 ### Gerenciar Veículos
-![Gerenciar Veículos](screenshots/admin-veiculos.png)
+![Gerenciar Veículos](screenshots/gerenciar-veiculos.png)
 
 ### Cadastrar Veículo
 ![Cadastrar Veículo](screenshots/cadastrar-veiculo.png)
 
 ### Gerenciar Marcas
-![Gerenciar Marcas](screenshots/admin-marcas.png)
+![Gerenciar Marcas](screenshots/gerenciar-marcas.png)
 
 ### Gerenciar Modelos
-![Gerenciar Modelos](screenshots/admin-modelos.png)
+![Gerenciar Modelos](screenshots/gerenciar-modelos.png)
 
 ### Gerenciar Cores
-![Gerenciar Cores](screenshots/admin-cores.png)
+![Gerenciar Cores](screenshots/gerenciar-cores.png)
 
 ## 🔧 Comandos Úteis
 
