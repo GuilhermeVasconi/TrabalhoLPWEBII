@@ -165,4 +165,4 @@ php artisan migrate:fresh --seed
 
 **Atenção:** Este comando apaga todos os dados e recria as tabelas com dados de exemplo.
 
->>>>>>> fb02c14a695117331ac1bc89ea0450f0b8ecd095
+>>>>>>
