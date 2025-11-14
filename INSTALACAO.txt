@@ -1,0 +1,59 @@
+================================================================================
+INSTRUÇÕES DE INSTALAÇÃO - SISTEMA DE VEÍCULOS
+================================================================================
+
+REQUISITOS:
+- XAMPP instalado (com PHP 8.1+ e MySQL)
+- Composer instalado
+
+PASSO A PASSO:
+
+1. EXTRAIR O PROJETO
+   - Extraia o arquivo ZIP
+   - Copie a pasta "sistema-veiculos" para C:\xampp\htdocs\
+
+2. INICIAR XAMPP
+   - Abra o XAMPP Control Panel
+   - Inicie Apache e MySQL
+
+3. CRIAR BANCO DE DADOS
+   - Acesse: http://localhost/phpmyadmin
+   - Clique em "Novo" ou "New"
+   - Nome do banco: sistema_veiculos
+   - Clique em "Criar"
+
+4. INSTALAR DEPENDÊNCIAS
+   - Abra o terminal/CMD na pasta do projeto:
+     cd C:\xampp\htdocs\sistema-veiculos
+   
+   - Execute:
+     composer install
+
+5. CONFIGURAR .ENV (se necessário)
+   - O arquivo .env já está configurado para XAMPP padrão
+   - Se você tem senha no MySQL, edite a linha:
+     DB_PASSWORD=sua_senha_aqui
+
+6. EXECUTAR MIGRATIONS E SEEDERS
+   - No terminal, execute:
+     php artisan migrate
+     php artisan db:seed
+
+7. ACESSAR O SISTEMA
+   - Área Pública: http://localhost/sistema-veiculos/public
+   - Login Admin: http://localhost/sistema-veiculos/public/login
+   
+   Credenciais:
+   Email: admin@admin.com
+   Senha: admin123
+
+================================================================================
+OBSERVAÇÕES:
+- As fotos dos veículos são armazenadas como URLs (links externos)
+- O sistema já vem com dados de exemplo (marcas, modelos, cores e veículos)
+- Para resetar o banco: php artisan migrate:fresh --seed
+
+SUPORTE:
+- Leia o arquivo README.md para mais informações
+- Veja as screenshots na pasta "screenshots/"
+================================================================================
