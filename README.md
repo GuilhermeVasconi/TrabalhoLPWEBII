@@ -3,14 +3,14 @@
 
 Sistema desenvolvido em Laravel para gerenciamento e visualização de veículos à venda, similar aos portais Carros.com.br, iCarros e Webmotors.
 
-## 📋 Requisitos
+## Requisitos
 
 - PHP 8.1 ou superior
 - MySQL 5.7 ou superior
 - Composer
 - XAMPP (ou servidor web com PHP e MySQL)
 
-## 🚀 Instalação
+## Instalação
 
 ### 1. Configurar o XAMPP
 
@@ -42,8 +42,6 @@ DB_DATABASE=sistema_veiculos
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-
-**Importante:** Se você configurou uma senha para o MySQL no XAMPP, altere a linha `DB_PASSWORD=` para incluir sua senha.
 
 ### 5. Instalar Dependências
 
@@ -167,21 +165,4 @@ php artisan migrate:fresh --seed
 
 **Atenção:** Este comando apaga todos os dados e recria as tabelas com dados de exemplo.
 
-## 📝 Observações
-
-- As imagens dos veículos são armazenadas como URLs (links externos), não há upload de arquivos
-- O sistema utiliza templates Blade com `@extends`, `@section` e `@yield` conforme solicitado
-- Todas as validações de formulário estão implementadas
-- O sistema está preparado para funcionar em ambiente local (XAMPP)
-
-## 👨‍💻 Desenvolvimento
-
-Este projeto foi desenvolvido como trabalho acadêmico utilizando as melhores práticas do Laravel, mantendo a simplicidade e clareza do código para fins educacionais.
-
-## 📄 Licença
-
-Este projeto é de uso acadêmico.
-=======
-# TrabalhoLPWEBII
-Site de vendas automotivas 
 >>>>>>> fb02c14a695117331ac1bc89ea0450f0b8ecd095
