@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema de Venda de Veículos
 
 Sistema desenvolvido em Laravel para gerenciamento e visualização de veículos à venda, similar aos portais Carros.com.br, iCarros e Webmotors.
@@ -180,3 +181,7 @@ Este projeto foi desenvolvido como trabalho acadêmico utilizando as melhores pr
 ## 📄 Licença
 
 Este projeto é de uso acadêmico.
+=======
+# TrabalhoLPWEBII
+Site de vendas automotivas 
+>>>>>>> fb02c14a695117331ac1bc89ea0450f0b8ecd095
