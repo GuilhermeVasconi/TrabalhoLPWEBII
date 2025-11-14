@@ -130,19 +130,19 @@ Cada veículo deve ter:
 ![Painel Admin](screenshots/painel-admin.png)
 
 ### Gerenciar Veículos
-![Gerenciar Veículos](screenshots/gerenciar-veiculos.png)
+![Gerenciar Veículos](screenshots/gerenciar-veiculos.PNG)
 
 ### Cadastrar Veículo
 ![Cadastrar Veículo](screenshots/cadastrar-veiculo.png)
 
 ### Gerenciar Marcas
-![Gerenciar Marcas](screenshots/gerenciar-marcas.png)
+![Gerenciar Marcas](screenshots/gerenciar-marcas.PNG)
 
 ### Gerenciar Modelos
-![Gerenciar Modelos](screenshots/gerenciar-modelos.png)
+![Gerenciar Modelos](screenshots/gerenciar-modelos.PNG)
 
 ### Gerenciar Cores
-![Gerenciar Cores](screenshots/gerenciar-cores.png)
+![Gerenciar Cores](screenshots/gerenciar-cores.PNG)
 
 ## 🔧 Comandos Úteis
 
