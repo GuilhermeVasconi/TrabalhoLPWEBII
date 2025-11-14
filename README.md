@@ -118,10 +118,10 @@ Cada veículo deve ter:
 ## Screenshots
 
 ### Tela Inicial (Área Pública)
-![Tela Inicial](screenshots/tela-publica.png)
+![Tela Inicial](screenshots/telapublica.png)
 
 ### Detalhes do Veículo
-![Detalhes](screenshots/detalhes-do-veiculo.png)
+![Detalhes](screenshots/detalheveiculo.png)
 
 ### Login
 ![Login](screenshots/login.png)
